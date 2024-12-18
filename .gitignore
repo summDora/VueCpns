@@ -1,0 +1,11 @@
+# 忽略所有log文件
+*.log
+
+# 忽略node_modules文件
+node_modules/
+
+# 忽略构建产物
+dist/
+
+.DS_Store
+pnpm-lock.yaml

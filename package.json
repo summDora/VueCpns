@@ -1,0 +1,30 @@
+{
+  "name": "vuecpns",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite examples",
+    "commit": "cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@fhlcpns/components": "workspace:^",
+    "@fhlcpns/examples": "workspace:^",
+    "@fhlcpns/theme-chalk": "workspace:^",
+    "@fhlcpns/utils": "workspace:^"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "cz-customizable": "^7.3.0",
+    "vite": "^6.0.3"
+  }
+}
