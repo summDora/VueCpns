@@ -7,17 +7,17 @@
     <f-button type="danger">danger</f-button>
   </f-row>
   <f-row :gutter="10">
-    <f-button type="primary" plain>primary</f-button>
-    <f-button type="success" plain>success</f-button>
-    <f-button type="info" plain>info</f-button>
-    <f-button type="warning" plain>warning</f-button>
-    <f-button type="danger" plain>danger</f-button>
+    <f-button type="primary" size="small">primary</f-button>
+    <f-button type="success" size="small">success</f-button>
+    <f-button type="info" size="small">info</f-button>
+    <f-button type="warning" size="small">warning</f-button>
+    <f-button type="danger" size="small">danger</f-button>
   </f-row>
   <f-row :gutter="10">
-    <f-button type="primary" round>primary</f-button>
-    <f-button type="success" round>success</f-button>
-    <f-button type="info" round>info</f-button>
-    <f-button type="warning" round>warning</f-button>
-    <f-button type="danger" round>danger</f-button>
+    <f-button type="primary" size="mini">primary</f-button>
+    <f-button type="success" size="mini">success</f-button>
+    <f-button type="info" size="mini">info</f-button>
+    <f-button type="warning" size="mini">warning</f-button>
+    <f-button type="danger" size="mini">danger</f-button>
   </f-row>
 </template>
