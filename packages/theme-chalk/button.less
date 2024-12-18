@@ -1,0 +1,204 @@
+.f-button {
+  display: inline-block;
+  white-space: nowrap;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #fff;
+  text-align: center;
+  box-sizing: border-box;
+  outline: none;
+  font-weight: 500;
+  line-height: 1;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  min-width: 98px;
+  padding: 12px 18px;
+  font-size: 14px;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%);
+  &:hover:not(:disabled) {
+    box-shadow: 0 7px 14px rgb(50 50 93 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+  }
+}
+
+.f-button.f-button--small {
+  min-width: 92px;
+  padding: 10px 18px;
+}
+.f-button.f-button--mini {
+  min-width: 80px;
+  padding: 9px 15px;
+  font-size: 12px;
+  border-radius: 3px;
+}
+.f-button.f-button--icon {
+  min-width: 40px;
+  padding: 8px 15px;
+  font-size: 18px;
+  border-radius: 4px;
+}
+.f-button.is-round {
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.f-button.is-disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.f-button__default {
+  color: var(--f-primary);
+  background-color: transparent;
+  &:active:not(:disabled) {
+    background: #e6e6e6;
+    border-color: #e6e6e6;
+    color: var(--f-default);
+    box-shadow: 0 0 0 transparent;
+  }
+}
+
+.f-button__primary {
+  color: #fff;
+  background-color: var(--f-primary);
+  border-color: var(--f-primary);
+  &:active:not(:disabled) {
+    background: #324cdd;
+  }
+}
+.f-button__success {
+  color: #fff;
+  background-color: var(--f-success);
+  border-color: var(--f-success);
+  &:active:not(:disabled) {
+    background: #24a46d;
+  }
+}
+.f-button__warning {
+  color: #fff;
+  background-color: var(--f-warning);
+  border-color: var(--f-warning);
+  &:active:not(:disabled) {
+    background: #fa3a0e;
+  }
+}
+
+.f-button__info {
+  color: #fff;
+  background-color: var(--f-info);
+  border-color: var(--f-info);
+  &:active:not(:disabled) {
+    background: #0da5c0;
+  }
+}
+
+.f-button__danger {
+  color: #fff;
+  background-color: var(--f-danger);
+  border-color: var(--f-danger);
+  &:active:not(:disabled) {
+    background: #ec0c38;
+  }
+}
+
+.is-plain {
+  box-shadow: 0 0 0 transparent;
+  &:hover {
+    box-shadow: 0 0 0 transparent;
+  }
+}
+
+.f-button__default.is-plain {
+  &:hover,
+  &:focus {
+    background: transparent;
+    border-color: var(--f-default);
+    color: var(--f-default);
+  }
+}
+.f-button__primary.is-plain {
+  color: var(--f-primary);
+  background: transparent;
+  border-color: var(--f-primary);
+  &:hover:not(:disabled),
+  &:active:not(:disabled) {
+    color: #fff;
+    background: var(--f-primary);
+    border-color: var(--f-primary);
+  }
+  &:hover:not(:disabled) {
+    box-shadow: 0 7px 14px rgb(50 50 93 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+  }
+  &:active:not(:disabled) {
+    box-shadow: 0 0 0 transparent;
+  }
+}
+.f-button__success.is-plain {
+  color: var(--f-success);
+  background: transparent;
+  border-color: var(--f-success);
+  &:hover:not(:disabled),
+  &:active:not(:disabled) {
+    color: #fff;
+    background: var(--f-success);
+    border-color: var(--f-success);
+  }
+  &:hover:not(:disabled) {
+    box-shadow: 0 7px 14px rgb(50 50 93 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+  }
+  &:active:not(:disabled) {
+    box-shadow: 0 0 0 transparent;
+  }
+}
+.f-button__warning.is-plain {
+  color: var(--f-warning);
+  background: transparent;
+  border-color: var(--f-warning);
+  &:hover:not(:disabled),
+  &:active:not(:disabled) {
+    color: #fff;
+    background: var(--f-warning);
+    border-color: var(--f-warning);
+  }
+  &:hover:not(:disabled) {
+    box-shadow: 0 7px 14px rgb(50 50 93 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+  }
+  &:active:not(:disabled) {
+    box-shadow: 0 0 0 transparent;
+  }
+}
+.f-button__info.is-plain {
+  color: var(--f-info);
+  background: transparent;
+  border-color: var(--f-info);
+  &:hover:not(:disabled),
+  &:active:not(:disabled) {
+    color: #fff;
+    background: var(--f-info);
+    border-color: var(--f-info);
+  }
+  &:hover:not(:disabled) {
+    box-shadow: 0 7px 14px rgb(50 50 93 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+  }
+  &:active:not(:disabled) {
+    box-shadow: 0 0 0 transparent;
+  }
+}
+.f-button__danger.is-plain {
+  color: var(--f-danger);
+  background: transparent;
+  border-color: var(--f-danger);
+  &:hover:not(:disabled),
+  &:active:not(:disabled) {
+    color: #fff;
+    background: var(--f-danger);
+    border-color: var(--f-danger);
+  }
+  &:hover:not(:disabled) {
+    box-shadow: 0 7px 14px rgb(50 50 93 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+  }
+  &:active:not(:disabled) {
+    box-shadow: 0 0 0 transparent;
+  }
+}
