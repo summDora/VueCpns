@@ -26,7 +26,9 @@
     "@fhlcpns/components": "workspace:^",
     "@fhlcpns/examples": "workspace:^",
     "@fhlcpns/theme-chalk": "workspace:^",
-    "@fhlcpns/utils": "workspace:^"
+    "@fhlcpns/utils": "workspace:^",
+    "@highlightjs/vue-plugin": "^2.1.0",
+    "highlight.js": "^11.11.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.1",

@@ -13,7 +13,7 @@ import demo4 from './demo4.vue'
 
 使用 `type`、`plain` 和 `round` 来定义按钮的样式。
 
-<preview comf-name="button" demo-name="demo1">
+<preview comp-name="button" demo-name="demo1">
   <demo1/>
 </preview>
 
@@ -23,7 +23,7 @@ import demo4 from './demo4.vue'
 
 使用 `disabled` 属性来控制按钮是否为禁用状态。 该属性接受一个 `Boolean` 类型的值。
 
-<preview comf-name="button" demo-name="demo2">
+<preview comp-name="button" demo-name="demo2">
   <demo2/>
 </preview>
 
@@ -33,7 +33,7 @@ import demo4 from './demo4.vue'
 
 使用 `size` 属性额外配置尺寸，可使用 `small` 和 `mini` 两种值。
 
-<preview comf-name="button" demo-name="demo3">
+<preview comp-name="button" demo-name="demo3">
   <demo3/>
 </preview>
 
@@ -41,6 +41,14 @@ import demo4 from './demo4.vue'
 
 使用 `icon` 属性传入图标的名称，所有的 icon 名称 请查看 `Icon` 组件
 
-<preview comf-name="button" demo-name="demo4">
+<preview comp-name="button" demo-name="demo4">
   <demo4/>
 </preview>
+
+## 图标按钮
+
+## 图标按钮
+
+## 图标按钮
+
+## 图标按钮

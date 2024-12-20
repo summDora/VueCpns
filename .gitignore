@@ -9,3 +9,6 @@ dist/
 
 .DS_Store
 pnpm-lock.yaml
+
+# 缓存
+docs/.vitepress/cache

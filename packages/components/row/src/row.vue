@@ -14,11 +14,10 @@ const props = defineProps(Props);
 
 const style = computed(() => {
   const { gutter, justify, align } = props;
-  console.log('🚀 ~ style ~ props:', props)
   return {
     gap: gutter + "px",
-    justifyContent: justify || "start",
-    alignItem: align || "flex-start",
+    justifyContent: justify ,
+    alignItem: align,
   };
 });
 </script>

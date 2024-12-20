@@ -20,6 +20,7 @@ export const Props = {
   // flex 布局下的水平排列方式 'start' | 'end' | 'center' | 'space-around' | 'space-between' | 'space-evenly'
   justify: {
     type: String,
+    default: "start",
     validator(value: string) {
       return ROW_JUSTIFY_ENUM.includes(value);
     },
@@ -27,6 +28,7 @@ export const Props = {
   // flex 布局下的垂直排列方式 'top' | 'middle' | 'bottom'
   align: {
     type: String,
+    default: "flex-start",
     validator(value: string) {
       return ROW_ALIGN_ENUM.includes(value);
     },
