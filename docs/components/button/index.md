@@ -45,10 +45,4 @@ import demo4 from './demo4.vue'
   <demo4/>
 </preview>
 
-## 图标按钮
-
-## 图标按钮
-
-## 图标按钮
-
-## 图标按钮
+## 图标按钮1

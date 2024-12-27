@@ -3,9 +3,12 @@
 layout: home
 
 hero:
-  name: "基于vue3.0的组件库"
-  text: 非!企业级产品设计体系
+  name: "Fsu Deign Vue"
+  text: 基于vue3.0的组件库
   tagline: "By hl.Fang"
+  image:
+    src: "logo3.png"
+    alt: "FVueCpns"
   actions:
     - theme: brand
       text: 开始使用

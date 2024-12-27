@@ -1,7 +1,7 @@
 <template>
   <f-row :gutter="10">
-    <f-button type="primary" icon="chart-bar"></f-button>
-    <f-button type="info" icon="data-view"></f-button>
-    <f-button type="warning" icon="copy"></f-button>
+    <f-button type="primary" icon="jiangguozhuangshi"></f-button>
+    <f-button type="info" icon="guashi"></f-button>
+    <f-button type="warning" icon="guashi"></f-button>
   </f-row>
 </template>

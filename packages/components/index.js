@@ -18,6 +18,6 @@ export default {
 
     // components.forEach(comp => {
     //   app.component(comp.name,comp)
-    // })
+    // }) 
   },
 };

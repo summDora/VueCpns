@@ -5,6 +5,7 @@
 </template>
 
 <script setup>
+import { computed } from "vue";
 import { Props } from "./col";
 defineOptions({
   name: "f-col",
@@ -12,11 +13,13 @@ defineOptions({
 const props = defineProps(Props);
 
 const style = computed(() => {
-  const { span } = props;
+  const { span,offset } = props;
   const percent = span / 24;
+  const offpercent = offset / 24;
   return {
     maxWidth: percent * 100 + "%",
-    flex: `0 0 ${percent * 100 + "%"}`,
+    flex: percent * 100 ,
+    marginLeft:offpercent * 100 +"%"
   };
 });
 </script>

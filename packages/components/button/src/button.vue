@@ -12,8 +12,8 @@
     :disabled="disabled"
   >
     <i v-if="icon" :class="['f-icon', `icon-${icon}`]"></i>
-    <span>
-      <slot>{{ type }}</slot>
+    <span v-if="$slots.default">
+      <slot />
     </span>
   </button>
 </template>

@@ -16,7 +16,12 @@ export const Props = {
   span: {
     type: Number,
     default: 0,
-  }
+  },
+  // 列偏移
+  offset: {
+    type: Number,
+    default: 0,
+  },
 };
 
 export type IconProps = ExtractPropTypes<typeof Props>;

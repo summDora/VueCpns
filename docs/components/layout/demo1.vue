@@ -45,6 +45,7 @@
   background: #9fd7ff;
 }
 .bg-purple-light {
-  background: lighten(#9fd7ff, 12%);
+  background: #9fd7ff;
+  filter: opacity(0.5);
 }
 </style>
